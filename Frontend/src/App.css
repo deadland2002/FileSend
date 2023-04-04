@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.ParentDiv{
+  width: calc(100% - 40px);
+  height: calc(100vh - 40px);
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px 20px;
+}
+
+.child{
+  background-color: rgb(65, 65, 65);
+  width: calc(100% - 40px);
+  padding: 10px 20px;
+}
