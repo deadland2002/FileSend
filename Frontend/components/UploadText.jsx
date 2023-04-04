@@ -26,8 +26,8 @@ const UploadText = () => {
   return (
     <div>
       <form action="#" method="post" onSubmit={handleSubmit}>
-        <label for="images" class="drop-container">
-          <span class="drop-title">Read File</span>
+        <label className="drop-container">
+          <span className="drop-title">Read File</span>
           <input type="file" required onChange={handleFile}/>
         </label>
         <button type="submit">Submit</button>

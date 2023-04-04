@@ -110,3 +110,17 @@ button:disabled {
     margin-top: 20px;
     color: white;
 }
+
+.inpField{
+  color: white;
+  display: flex;
+  gap: 20px;
+}
+
+.inpField input,input:focus{
+  outline: none;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid white;
+  color: white;
+}
