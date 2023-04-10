@@ -17,8 +17,7 @@ String.prototype.replaceAll = function (str1, str2, ignore) {
     ),
     typeof str2 == "string" ? str2.replace(/\$/g, "$$$$") : str2
   );
-};
-
+}; 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, destination ? destination : "files");
